@@ -14,3 +14,31 @@ nav ul {
 nav ul li {
     margin: 10px;
 }
+
+.about-section {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.about-section h2{
+    margin: 10px;
+    width: 200px;
+}
+.work-section {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.work-section h2{
+    margin: 10px;
+    width: 200px;
+}
+.contact-section {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.contact-section h2{
+    margin: 10px;
+    width: 200px;
+}
