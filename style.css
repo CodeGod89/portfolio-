@@ -1,9 +1,14 @@
 header {
-    padding: 40px;
-    background-color: blanchedalmond;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+body {
+    font-family: cursive;
+    display:flex;
+    flex-direction: column;
+background-color: beige;
 }
 /*This section is for my navigation*/
 nav ul {
@@ -18,7 +23,7 @@ nav ul li {
 /*This is how my about section will appear*/
 .about-section {
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     justify-content: space-around;
 }
 .about-section h2{
@@ -28,29 +33,25 @@ nav ul li {
 /*This is how my work section will appear*/
 .work-section {
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     justify-content: space-around;
 }
 .work-section h2{
-    margin: 10px;
+    margin: 50px;
     width: 200px;
 }
 /*This how my contact section will appear*/
 .contact-section {
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content: space-around;
 }
 .contact-section h2{
-    margin: 10px;
+    margin: 50px;
     width: 200px;
 }
 footer {
-    justify-content: space-around;
-align-items: flex-end;
-    padding: 20px;
-    text-align: center;
-    background: blanchedalmond;
-    color: black;
-    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
 }
