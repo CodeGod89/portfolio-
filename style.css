@@ -4,7 +4,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
-
+/*This section is for my navigation*/
 nav ul {
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@ nav ul {
 nav ul li {
     margin: 10px;
 }
-
+/*This is how my about section will appear*/
 .about-section {
     display: flex;
     flex-direction:row;
@@ -24,6 +24,7 @@ nav ul li {
     margin: 10px;
     width: 200px;
 }
+/*This is how my work section will appear*/
 .work-section {
     display: flex;
     flex-direction:row;
@@ -33,6 +34,7 @@ nav ul li {
     margin: 10px;
     width: 200px;
 }
+/*This how my contact section will appear*/
 .contact-section {
     display: flex;
     flex-direction:row;
